@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "autoprefixer": "^8.6.0",
+    "grunt": "^1.0.2",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-postcss": "^0.9.0",
+    "grunt-sass": "^2.1.0",
+    "matchdep": "^2.0.0",
+    "pixrem": "^4.0.1",
+    "spectre.css": "^0.5.1"
+  }
+}
