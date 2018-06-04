@@ -18,27 +18,35 @@
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-  <header>
+  <header class="container">
     <nav class="navbar">
       <section class="navbar-section">
         <a href="" class=""></a>
       </section>
       <section class="navbar-section">
-        <a href="" class="">Home</a>
-        <a href="" class="">About</a>
-        <a href="" class="">Projects</a>
-        <a href="" class="">Contact</a>
+        <a href="/" class="">Home</a>
+        <a href="about" class="">About</a>
+        <a href="projects" class="">Projects</a>
+        <a href="contact" class="">Contact</a>
       </section>
     </nav>
   </header>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <!-- <script src="js/vendor/modernizr-3.6.0.min.js"></script> -->
+  <main class="d-flex flex-column justify-content-center">
+    <div class="container text-center">
+      <h1><span>David Allenby</span></h1>
+      <p class="text-uppercase subtitle">UX Engineer</p>
+      <div id="intro-text" class="centered">
+        <p>I am a UX Engineer based in Melbourne, Australia. I specialise in front end development, and UI Design.</p>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/libs/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-3.3.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/src/plugins.js"></script>
+  <script src="js/src/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <!-- <script>

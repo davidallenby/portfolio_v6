@@ -1,0 +1,8 @@
+#intro-text {
+  @media (min-width: $size-md) {
+    max-width: 50%;
+  }
+  @media (min-width: $size-lg) {
+    max-width: 30%;
+  }
+}

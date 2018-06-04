@@ -5,5 +5,12 @@
 @import "node_modules/spectre.css/src/spectre.scss";
 
 // Custom Styles
+@import "base"; // Base layout
 @import "type"; // Typography
+
 @import "nav"; // Navbar
+
+@import "utils"; // Utility Classes
+
+// Pages
+@import "home"; // Home page
