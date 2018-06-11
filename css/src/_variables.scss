@@ -1,7 +1,10 @@
 
 // Colours
+$white:           #fff;
 $primary-color:   #333;
 $dark-color:      #333;
+$link-color:      #D2B48C;
+$gray-color:        lighten($primary-color, 50%);
 
 // Typography
 $base-font-family: "hk_grotesk_reg", sans-serif;

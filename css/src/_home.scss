@@ -1,4 +1,6 @@
-#intro-text {
+#home {
+  min-height: 100vh;
+
   @media (min-width: $size-md) {
     max-width: 50%;
   }

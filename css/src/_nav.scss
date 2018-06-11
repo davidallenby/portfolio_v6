@@ -1,13 +1,20 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
 .navbar a {
   font-family: 'eb_garamond_med';
   padding: .35rem .67rem;
   position: relative;
-  transition: all .2s ease-in-out;
 
   &:after {
     content: '';
     display: block;
-    background-color: $dark-color;
+    background-color: darken($link-color,20%);
     height: 1px;
     position: absolute;
     bottom: 0;
@@ -18,8 +25,6 @@
   }
 
   &:hover {
-    text-decoration: none;
-
     &:after {
       transform: translateX(-50%) scaleX(1);
     }

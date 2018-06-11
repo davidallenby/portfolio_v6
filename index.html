@@ -11,6 +11,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="favicons/icon.png">
 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="css/dist/styles.min.css">
 </head>
 
@@ -18,7 +19,8 @@
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-  <header class="container">
+
+  <header class="container bg-white p-2">
     <nav class="navbar">
       <section class="navbar-section">
         <a href="" class=""></a>
@@ -32,19 +34,45 @@
     </nav>
   </header>
 
-  <main class="d-flex flex-column justify-content-center">
-    <div class="container text-center">
-      <h1><span>David Allenby</span></h1>
-      <p class="text-uppercase subtitle">UX Engineer</p>
-      <div id="intro-text" class="centered">
-        <p>I am a UX Engineer based in Melbourne, Australia. I specialise in front end development, and UI Design.</p>
+  <main class="">
+    <div id="home" class="container d-flex flex-column justify-content-center page">
+      <div class="centered text-center">
+        <h1><span>David Allenby</span></h1>
+        <p class="subtitle">UX Engineer</p>
+        <p>I am a UX Engineer based in Melbourne, Australia. I specialise in front end development, and UI Design.<br/>I make the web look pretty.</p>
+        <p>
+          <a class="btn btn-link" href="#about-me">Learn more.</a>
+        </p>
+        <div class="d-flex align-items-center centered">
+          <a title="LinkedIn" href="https://www.linkedin.com/in/davidallenby" target="_blank" class="btn btn-link mr-2">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a title="CodePen" href="https://codepen.io/davidallenby/" target="_blank" class="btn btn-link mr-2">
+              <i class="fab fa-codepen"></i>
+          </a>
+          <a title="BitBucket" href="https://bitbucket.org/davidallenby" target="_blank" class="btn btn-link mr-2">
+            <i class="fab fa-bitbucket"></i>
+          </a>
+          <a href="#" class="contact-me btn btn-link">
+            <i class="far fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div id="about-me" class="bg-gray py-3 page">
+      <div class="content-container container bg-white">
+        <h2><span>Learn a bit about me.</span></h2>
+        <p>Hi. my name's David. What's yours?</p>
       </div>
     </div>
   </main>
+  <div class="panel-loading d-flex align-items-center">
+
+  </div>
 
   <script src="js/libs/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/src/plugins.js"></script>
   <script src="js/src/main.js"></script>
 

@@ -22,6 +22,7 @@
 
 h1,h2,h3,h4,h5,h6 {
   font-family: 'eb_garamond_med';
+  text-align: center;
 
   & > span {
     position: relative;
@@ -42,4 +43,14 @@ h1,h2,h3,h4,h5,h6 {
 .subtitle {
   letter-spacing: .05rem;
   color: $gray-color;
+  text-transform: uppercase;
+}
+
+a {
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    text-decoration: none;
+    color: darken($link-color, 20%);
+  }
 }
