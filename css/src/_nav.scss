@@ -14,7 +14,7 @@ header {
   &:after {
     content: '';
     display: block;
-    background-color: darken($link-color,20%);
+    background-color: darken($link-color,25%);
     height: 1px;
     position: absolute;
     bottom: 0;
