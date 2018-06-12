@@ -34,14 +34,15 @@ h1,h2 {
       width: 50%;
       left: 50%;
       position: absolute;
-      bottom: -0.25rem;
+      bottom: -0.35rem;
       transform: translateX(-50%);
     }
   }
 }
 
 .subtitle {
-  letter-spacing: .05rem;
+  font-size: 1rem;
+  letter-spacing: .115rem;
   color: $gray-color;
   text-transform: uppercase;
 }

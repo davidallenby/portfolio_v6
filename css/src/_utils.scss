@@ -31,15 +31,21 @@
   margin-right: .67rem;
 }
 
+.my-3 {
+  margin-top: .67rem;
+  margin-bottom: .67rem;
+}
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 
 .p-3 { padding: .67rem; }
 .p-4 { padding: 1rem; }
 
-.py- {
-  &3 {
-    padding-top: .67rem;
-    padding-bottom: .67rem;
-  }
+.py-3 {
+  padding-top: .67rem;
+  padding-bottom: .67rem;
 }
 
 // LOADING PANEL
