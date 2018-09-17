@@ -67,16 +67,13 @@
 
 .page {
   min-height: 100vh;
-  
-  @media (min-width: $size-md) {
-    max-width: 50%;
-  }
-  @media (min-width: $size-lg) {
-    max-width: 30%;
-  }
 }
 
 // COLOURS
 .bg-white {
   background-color: $white;
+}
+
+.bg-gold {
+  background-color: $link-color;
 }
