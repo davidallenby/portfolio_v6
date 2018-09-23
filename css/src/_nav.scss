@@ -1,12 +1,12 @@
 header {
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
+  left: 50%;
+  transform: translateX(-50%);
+  background: $white;
 }
 
-.navbar a {
+.navbar a:not(.logo) {
   font-family: 'eb_garamond_med';
   padding: .35rem .67rem;
   position: relative;
@@ -28,5 +28,22 @@ header {
     &:after {
       transform: translateX(-50%) scaleX(1);
     }
+  }
+}
+
+.logo {
+  font-family: 'eb_garamond_med';
+  height: 2rem;
+  width: 2rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 1px solid $link-color;
+
+  span {
+    letter-spacing: -0.25rem;
+    margin-left: -0.25rem;
   }
 }

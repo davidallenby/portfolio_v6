@@ -18,7 +18,9 @@ app.home = {
   },
 
   pageLoaded: function() {
-    $('.panel-loading').fadeOut('slow');
+    $('.spinner').fadeOut('slow', function() {
+      $('.panel-loading').fadeOut('slow');
+    })
   },
 }
 

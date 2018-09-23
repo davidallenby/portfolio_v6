@@ -19,31 +19,33 @@
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-
-  <header class="container bg-white p-2">
+  
+  <header class="container grid-xl bg-white p-2">
     <nav class="navbar">
       <section class="navbar-section">
-        <a href="" class=""></a>
+        <a href="/" class="logo">
+          <span>DA</span>
+        </a>
       </section>
       <section class="navbar-section">
-        <a href="/" class="">Home</a>
-        <a href="about" class="">About</a>
+        <a href="/" class=""></a>
+        <a href="profile" class="">Profile</a>
         <a href="projects" class="">Projects</a>
-        <a href="contact" class="">Contact</a>
+        <a href="connect" class="">Connect</a>
       </section>
     </nav>
   </header>
 
   <main class="">
-    <div id="home" class="container d-flex flex-column justify-content-center page">
-      <div class="text-center">
-        <h1><span>David Allenby</span></h1>
+    <div id="home" class="container grid-xl d-flex flex-column justify-content-center vh-100">
+      <div class="">
+        <h1 class="mb-0"><span>David Allenby</span></h1>
         <p class="subtitle">Front end web developer</p>
-        <p>Hello.<br/>I make the web look pretty.</p>
-        <p>
-          <a class="btn btn-link" href="#about-me">Learn more.</a>
+        <p>I'm a self-taught front-end web developer with experience in a broad range of languages, and frameworks.<br>
+          So what now? Well, you can learn more about <a href="">my experience</a>, and <a href="">what I can do</a>.<br/>
+          Alternatively, you can <a href="connect">get in touch</a> for a chat about what I do.
         </p>
-        <div class="d-flex align-items-center centered">
+        <!-- <div class="d-flex align-items-center centered">
           <a title="LinkedIn" href="https://www.linkedin.com/in/davidallenby" target="_blank" class="btn btn-link mr-2">
             <i class="fab fa-linkedin-in"></i>
           </a>
@@ -56,29 +58,37 @@
           <a href="#" class="contact-me btn btn-link">
             <i class="far fa-envelope"></i>
           </a>
-        </div>
+        </div> -->
       </div>
     </div>
 
-    <div id="about-me" class="py-3 page container">
-      <div class="columns">
+    <div id="about-me" class="py-3 container grid-xl vh-100">
+      <div class="columns h-100">
         <div class="column col-5 col-md-12 bg-gold">
           
         </div>
 
-        <div class="column col-7 col-md-12 bg-white p-3">
+        <div class="column col-7 col-md-12 bg-white p-3 d-flex flex-column justify-content-center">
           <h2><span>A wee bit about me</span></h2>
-          <p>Hi. My name's David. I'm a self-taught front-end web developer from Northern Ireland, living and working in Melbourne, Australia.</p>
-          <p>I'm currently working at the <a href="https://www.acer.org" target="_blank">Australian council <i>for</i> educational research</a> where I am in the role of front end web developer/UX Designer.</p>
+        
+          <p>I'm currently working at the <a href="https://www.acer.org" target="_blank">Australian council <i>for</i> educational research</a>, 
+          where I am in the role of front end web developer/UX Designer.</p>
           <p>I'm accepting freelance work, so <a href="#">get in touch</a> to discuss your upcoming project.</p>
-     
+    
         </div>
       </div>
     </div>
+
+    <div id="connect" class="py-3 container grid-xl vh-100">
+      <h2>Get in touch</h2>
+    </div>
   </main>
   
-  <div class="panel-loading d-flex align-items-center">
-
+  <div class="panel-loading d-flex align-items-center justify-content-center">
+    <div class="spinner">
+      <span class="spinner-text">DA</span>
+      <div class="spinner-box"></div>
+    </div>
   </div>
 
   <script src="js/libs/modernizr-3.6.0.min.js"></script>

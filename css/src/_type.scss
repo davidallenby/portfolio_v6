@@ -22,22 +22,6 @@
 
 h1,h2 {
   font-family: 'eb_garamond_med';
-  text-align: center;
-
-  & > span {
-    position: relative;
-
-    &:after {
-      content: '';
-      height: 1px;
-      background-color: $dark-color;
-      width: 50%;
-      left: 50%;
-      position: absolute;
-      bottom: -0.35rem;
-      transform: translateX(-50%);
-    }
-  }
 }
 
 .subtitle {
