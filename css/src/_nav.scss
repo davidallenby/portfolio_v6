@@ -2,8 +2,8 @@ header {
   position: fixed;
   top: 0;
   left: 50%;
+  z-index: 100;
   transform: translateX(-50%);
-  background: $white;
 }
 
 .navbar a:not(.logo) {
@@ -33,9 +33,9 @@ header {
 
 .logo {
   font-family: 'eb_garamond_med';
-  height: 2rem;
-  width: 2rem;
-  font-size: 1rem;
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 1.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
