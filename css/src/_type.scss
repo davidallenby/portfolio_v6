@@ -20,12 +20,14 @@
   font-style: normal;
 }
 
-h1,h2 {
+h1,h2,
+.h1,.h2 {
   font-family: 'eb_garamond_med';
 }
 
 .subtitle {
   font-size: 1rem;
+  font-family: $font-family-base;
   letter-spacing: .115rem;
   color: $subtitle;
   text-transform: uppercase;
@@ -37,5 +39,11 @@ a {
   &:hover {
     text-decoration: none;
     color: darken($link-color, 25%);
+  }
+}
+
+footer {
+  a {
+    text-decoration: underline;
   }
 }

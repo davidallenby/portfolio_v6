@@ -73,6 +73,6 @@ $(document).ready(function() {
   app.home.init();
 })
 
-$(window).on('load', function() {
+window.onload = function() {
   app.home.pageLoaded();
-})
+}

@@ -26,17 +26,19 @@
     </p>
   <![endif]-->
   
-  <header class="container p-2">
-    <div class="d-flex align-items-center">
-      <a href="/" class="logo mr-auto">
-        <span>DA</span>
-      </a>
-      <nav class="navbar">
-        <a href="/" class=""></a>
-        <a href="profile" class="">Profile</a>
-        <a href="projects" class="">Projects</a>
-        <a href="connect" class="">Connect</a>
-      </nav>
+  <header class="py-2">
+    <div class="container">
+      <div class="d-flex align-items-center">
+        <a href="/" class="logo mr-auto">
+          <span>DA</span>
+        </a>
+        <nav class="navbar">
+          <a href="/" class=""></a>
+          <a href="profile" class="">Profile</a>
+          <a href="projects" class="">Projects</a>
+          <a href="blog" class="">Blog</a>
+        </nav>
+      </div>
     </div>
   </header>
 
@@ -48,62 +50,142 @@
           <h1 class="mb-0"><span>David Allenby</span></h1>
           <p class="subtitle">Front end web developer</p>
           <div class="row">
-            <div class="col-12 col-md-8 col-lg-6">
+            <div class="col-12 col-md-6">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam 
                 ut porttitor leo a diam sollicitudin tempor.
               </p>
+              <div class="d-flex align-items-center">
+                <a title="LinkedIn" href="https://www.linkedin.com/in/davidallenby" 
+                  target="_blank" class="mr-3 d-inline-block p-2">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a title="CodePen" href="https://codepen.io/davidallenby/" 
+                  target="_blank" class="mr-3 d-inline-block p-2">
+                    <i class="fab fa-codepen"></i>
+                </a>
+                <a title="BitBucket" href="https://bitbucket.org/davidallenby" 
+                  target="_blank" class="mr-3 d-inline-block p-2">
+                  <i class="fab fa-bitbucket"></i>
+                </a>
+                <a href="#" class="contact-me">
+                  <i class="far fa-envelope"></i>
+                </a>
+              </div>
             </div>
           </div>
-          
-          <!-- <div class="d-flex align-items-center centered">
-            <a title="LinkedIn" href="https://www.linkedin.com/in/davidallenby" 
-              target="_blank" class="btn btn-link mr-2">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a title="CodePen" href="https://codepen.io/davidallenby/" 
-              target="_blank" class="btn btn-link mr-2">
-                <i class="fab fa-codepen"></i>
-            </a>
-            <a title="BitBucket" href="https://bitbucket.org/davidallenby" 
-              target="_blank" class="btn btn-link mr-2">
-              <i class="fab fa-bitbucket"></i>
-            </a>
-            <a href="#" class="contact-me btn btn-link">
-              <i class="far fa-envelope"></i>
-            </a>
-          </div> -->
       </div>
     </div>
 
-    <div id="about-me" class="py-3 container vh-100">
-      <div class="row h-100">
-        <div class="col-lg-5 col-12 bg-gold">
-          
-        </div>
-
-        <div class="row col-lg-7 col-12 bg-white p-3 d-flex flex-column 
-          justify-content-center">
-          <h2><span>A wee bit about me</span></h2>
-        
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Aliquam ut porttitor leo a diam sollicitudin tempor. 
-            Ipsum a arcu cursus vitae congue mauris rhoncus. Odio ut sem nulla 
-            pharetra. Vel orci porta non pulvinar neque laoreet. Consectetur 
-            adipiscing elit duis tristique sollicitudin nibh. Blandit aliquam 
-            etiam erat velit scelerisque in dictum. Purus semper eget duis at 
-            tellus at.</p>
-    
+    <div id="profile" class="py-3">
+      <div class="container vh-100 d-flex align-items-center">
+        <div class="row h-100">
+          <h2 class="mb-4 col-12">
+            <span>A wee bit about me</span>
+          </h2>
+          <div class="col-12 col-md-6">
+            <!-- <h2 class="">Experience</h2> -->
+            <div class="d-flex d-md-block mb-5">
+              <div class="mr-auto">
+                <p class="subtitle mb-1">
+                  Front-end developer & UI Designer
+                </p>
+                <p class="mb-0">
+                  <a href="http://acer.org" target="_blank">
+                    Australian Council <em>for</em> educational research.
+                  </a>
+                </p>
+              </div>
+              <div class="small">
+                <p>August 2017 - Present.</p>
+              </div>
+            </div>
+  
+            <div class="d-flex d-md-block mb-5">
+              <div class="mr-auto">
+                <p class="subtitle mb-1">
+                  Lead developer
+                </p>
+                <p class="mb-0">
+                  <a target="_blank" 
+                    href="http://www.therefinery.com.au">The Refinery.</a>
+                </p>
+              </div>
+              <div class="small">
+                <p>June 2016 - July 2017.</p>
+              </div>
+            </div>
+  
+            <div class="d-flex d-md-block mb-5">
+              <div class="mr-auto">
+                <p class="subtitle mb-1">
+                  Front-end developer
+                </p>
+                <p class="mb-0">
+                  <a target="_blank" 
+                    href="http://www.nab.com.au">National Australia Bank.</a>
+                </p>
+              </div>
+              <div class="small">
+                <p>June 2015 - June 2016.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-12 mx-auto">         
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Aliquam ut porttitor leo a diam sollicitudin tempor. 
+              Ipsum a arcu cursus vitae congue mauris rhoncus. Odio ut sem nulla 
+              pharetra. Vel orci porta non pulvinar neque laoreet. Consectetur 
+              adipiscing elit duis tristique sollicitudin nibh. Blandit aliquam 
+              etiam erat velit scelerisque in dictum. Purus semper eget duis at 
+              tellus at.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Aliquam ut porttitor leo a diam sollicitudin tempor.
+            </p>
+          </div>         
         </div>
       </div>
     </div>
 
-    <div id="connect" class="py-3 container vh-100">
-      <h2>Get in touch</h2>
+    <div id="projects" class="container vh-100">
+      <h2 class="mb-4">
+        Previous projects
+      </h2>
+      <div class="d-flex">
+        <div class="project-card">
+          <div 
+            class="project-card-title h-100 p-2 d-flex flex-column 
+              justify-content-end">
+            <h3 class="mb-0">NAB.</h3>
+          </div>
+        </div>
+        <div class="project-card">
+          <div 
+            class="project-card-title h-100 p-2 d-flex flex-column 
+              justify-content-end">
+            <h3 class="mb-0">The Refinery.</h3>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
+
+  <footer class="bg-gold">
+    <div class="container py-3">
+      <div class="d-flex">
+        <a href="#" class="contact-me d-inline-block mr-auto text-white pb-1">
+          Email me.
+        </a>
+        <span class="text-white">&copy; David Allenby</span>
+      </div>
+    </div>
+  </footer>
   
   <div class="panel-loading">
     <div class="d-flex align-items-center justify-content-center h-100">

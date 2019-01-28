@@ -4,5 +4,10 @@ $primary: #333;
 $link-color: #D2B48C;
 $subtitle: #b1b1b1;
 
+$theme-colors: (
+  "gold": $link-color
+);
+
 // Typography
 $font-family-base: "hk_grotesk_reg", sans-serif;
+$headings-font-family: 'eb_garamond_med', sans-serif;

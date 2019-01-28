@@ -1,7 +1,3 @@
-// LAYOUT
-.vh-100 { height: 100vh; }
-.h-100 { height: 100%; }
-
 // LOADING PANEL
 .panel-loading {
   background-color: $white;
@@ -37,7 +33,7 @@
     width: 100%;
     height: 100%;
     border: 1px solid $link-color;
-    animation: spinner 3s ease-in-out infinite;
+    animation: spinner 2s ease-in-out infinite;
   }
 }
 
