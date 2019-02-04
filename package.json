@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "animejs": "^3.0.1",
     "autoprefixer": "^8.6.0",
     "bootstrap": "^4.2.1",
     "grunt": "^1.0.2",

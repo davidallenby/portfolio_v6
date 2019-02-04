@@ -3,6 +3,7 @@
   color: white;
   background-color: $link-color;
   opacity: .5;
+  position: relative;
 
   @include media-breakpoint-up(md) {
     width: 25%;
@@ -14,7 +15,12 @@
     padding-bottom: 100%;
   }
 
-  &:nth-of-type(2) {
+  &:nth-of-type(even) {
     background-color: $gray-400;
+  }
+
+  .project-card-title {
+    position: absolute;
+    top: calc(100% - 49px);
   }
 }

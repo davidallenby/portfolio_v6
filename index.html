@@ -18,6 +18,14 @@
 </head>
 
 <body>
+  <div class="panel-loading">
+    <div class="d-flex align-items-center justify-content-center h-100">
+      <div class="spinner">
+        <span class="spinner-text">DA</span>
+        <div class="spinner-box"></div>
+      </div>
+    </div>
+  </div>
   <!--[if lte IE 9]>
     <p class="browserupgrade">
       You are using an <strong>outdated</strong> browser. 
@@ -35,7 +43,6 @@
         <nav class="navbar">
           <a href="/" class=""></a>
           <a href="profile" class="">Profile</a>
-          <a href="projects" class="">Projects</a>
           <a href="blog" class="">Blog</a>
         </nav>
       </div>
@@ -80,7 +87,7 @@
 
     <div id="profile" class="py-3">
       <div class="container vh-100 d-flex align-items-center">
-        <div class="row h-100">
+        <div class="row">
           <h2 class="mb-4 col-12">
             <span>A wee bit about me</span>
           </h2>
@@ -152,28 +159,6 @@
         </div>
       </div>
     </div>
-
-    <div id="projects" class="container vh-100">
-      <h2 class="mb-4">
-        Previous projects
-      </h2>
-      <div class="d-flex">
-        <div class="project-card">
-          <div 
-            class="project-card-title h-100 p-2 d-flex flex-column 
-              justify-content-end">
-            <h3 class="mb-0">NAB.</h3>
-          </div>
-        </div>
-        <div class="project-card">
-          <div 
-            class="project-card-title h-100 p-2 d-flex flex-column 
-              justify-content-end">
-            <h3 class="mb-0">The Refinery.</h3>
-          </div>
-        </div>
-      </div>
-    </div>
   </main>
 
   <footer class="bg-gold">
@@ -186,15 +171,6 @@
       </div>
     </div>
   </footer>
-  
-  <div class="panel-loading">
-    <div class="d-flex align-items-center justify-content-center h-100">
-      <div class="spinner">
-        <span class="spinner-text">DA</span>
-        <div class="spinner-box"></div>
-      </div>
-    </div>
-  </div>
 
   <script src="js/libs/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
