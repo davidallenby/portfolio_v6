@@ -9,6 +9,11 @@
   z-index: 101;
 }
 
+// Sets min-height to 100vh
+.vh-section {
+  min-height: 100vh;
+}
+
 // Loading spinner
 .spinner {
   height: 3rem;
