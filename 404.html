@@ -1,60 +1,99 @@
 <!doctype html>
-<html lang="en">
+<html class="no-js" lang="">
 <head>
-    <meta charset="utf-8">
-    <title>Page Not Found</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>David Allenby :: Front end developer</title>
+  <meta name="description" content="Hi, I'm David. I'm a Front-end Web 
+  Developer, and UI Designer based in Melbourne, Australia.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, 
+    shrink-to-fit=no">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="favicons/icon.png">
 
-        * {
-            line-height: 1.2;
-            margin: 0;
-        }
-
-        html {
-            color: #888;
-            display: table;
-            font-family: sans-serif;
-            height: 100%;
-            text-align: center;
-            width: 100%;
-        }
-
-        body {
-            display: table-cell;
-            vertical-align: middle;
-            margin: 2em auto;
-        }
-
-        h1 {
-            color: #555;
-            font-size: 2em;
-            font-weight: 400;
-        }
-
-        p {
-            margin: 0 auto;
-            width: 280px;
-        }
-
-        @media only screen and (max-width: 280px) {
-
-            body, p {
-                width: 95%;
-            }
-
-            h1 {
-                font-size: 1.5em;
-                margin: 0 0 0.3em;
-            }
-
-        }
-
-    </style>
+  <link rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" 
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/dist/styles.min.css">
 </head>
+
 <body>
-    <h1>Page Not Found</h1>
-    <p>Sorry, but the page you were trying to view does not exist.</p>
+  <div class="panel-loading">
+    <div class="d-flex align-items-center justify-content-center h-100">
+      <div class="spinner">
+        <span class="spinner-text">DA</span>
+        <div class="spinner-box"></div>
+      </div>
+    </div>
+  </div>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">
+      You are using an <strong>outdated</strong> browser. 
+      Please <a href="https://browsehappy.com/">upgrade your browser</a> to 
+      improve your experience and security.
+    </p>
+  <![endif]-->
+  
+  <header class="py-2 bg-white">
+    <div class="container">
+      <div class="d-flex align-items-center">
+        <a href="/" class="logo mr-auto">
+          <span>DA</span>
+        </a>
+        <nav class="navbar">
+          <a href="/#profile">Profile</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="d-flex">
+    <div class="container d-flex flex-column justify-content-center">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-8 mx-auto text-center">
+            <h1>Page not found</h1>
+            <div class="image-wrap image-wrap-circle mx-auto my-4 border-gold">
+              <img src="img/404.jpg" alt="Picture of Obi Wan from Star Wars. 
+              The scene where he tells the storm troopers 'these are not the 
+              droids you are looking for'" />
+            </div>
+            <p class="lead">This is not the page you are looking for.</p>
+            <p><a href="/">Go home.</a></p>
+          </div>
+        </div>
+        
+        
+        
+    </div>
+  </main>
+
+  <footer class="bg-gold">
+    <div class="container py-3">
+      <div class="d-flex">
+        <a href="#" class="contact-me d-inline-block mr-auto text-white pb-1">
+          Email me.
+        </a>
+        <span class="text-white">&copy; David Allenby</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/libs/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" 
+    crossorigin="anonymous"></script>
+  <script src="js/src/plugins.js"></script>
+  <script src="js/src/main.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140000521-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-140000521-1');
+  </script>
 </body>
+
 </html>
-<!-- IE needs 512+ bytes: https://blogs.msdn.microsoft.com/ieinternals/2010/08/18/friendly-http-error-pages/ -->
