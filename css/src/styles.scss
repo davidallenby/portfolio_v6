@@ -29,9 +29,10 @@
 @import "type"; // Typography
 @import "nav"; // Navbar
 @import "utils"; // Utility Classes
-@import "images";
 
 
 // Pages
 @import "home";
 @import "profile";
+
+@import "../../icons/style.css"; // IcoMoon icons

@@ -11,16 +11,18 @@ app.home = {
 
   // Spam prevention
   initContactMe: function() {
-    $('.contact-me').attr({
+    $('.cntct-me').attr({
       'href':'mailto:hello@davidallenby.com',
       'title': 'Get in touch'
     })
   },
 
   pageLoaded: function() {
-    $('.spinner').fadeOut('slow', function() {
-      $('.panel-loading').fadeOut('slow');
-    })
+    setTimeout(function() {
+      $('.spinner').fadeOut('slow', function() {
+        $('.panel-loading').fadeOut('slow');
+      })
+    }, 1000);
   }
 }
 
