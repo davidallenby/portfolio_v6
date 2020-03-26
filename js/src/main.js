@@ -58,7 +58,7 @@ app.home = {
       var contentId = $(this).attr('href');
 
       $('html, body').animate({
-        'scrollTop': $(contentId).offset().top - $('header').outerHeight()
+        'scrollTop': $(contentId).offset().top
       })
     })
   }
