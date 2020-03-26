@@ -13,6 +13,8 @@
     left: 50%;
     transform: translateX(-50%);
     fill: $link-color;
+    transform: translatey(0px);
+	  animation: float 3s ease-in-out infinite;
   }
 }
 
