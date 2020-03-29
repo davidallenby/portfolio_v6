@@ -1,6 +1,9 @@
 #!/bin/bash
 # Create a package for distribution/public
 
+# Run grunt build task to get latest version of assets
+grunt build
+
 # Delete existing public dir
 rm -rf public
 
