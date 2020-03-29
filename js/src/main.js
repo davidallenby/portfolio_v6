@@ -15,7 +15,7 @@ app.home = {
    * Prevents bots/spammers from seeing my email address.
    */
   initContactMe: function() {
-    const mailto = 'mailto:hello@davidallenby.com';
+    var mailto = 'mailto:hello@davidallenby.com';
     // On Click
     $(document).on('click', '.cntct-me', function(e) {
       e.preventDefault();

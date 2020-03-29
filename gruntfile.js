@@ -40,17 +40,41 @@ module.exports = function(grunt){
               'css/dist/styles.min.css':'css/dist/styles.css'
           }
       }
-		},
+    },
+    
+    uglify: {
+      options: {
+        mangle: true
+      },
+      build: {
+        files: [{
+          expand: true,
+          src: 'js/src/*.js',
+          dest: 'js/dist',
+          cwd: '.',
+          rename: function(dst, src) {
+            var lastslashindex = src.lastIndexOf('/');
+            var srcFilename = src.substring(lastslashindex + 1);
+            return dst + '/' + srcFilename.replace('.js', '.min.js');
+          }
+        }]
+      }
+    },
 
 		watch: {
 			styles: {
 				files: ['css/src/**/*.scss'],
 				tasks: ['clean','sass','postcss','cssmin']
-			}
+      },
+      js: {
+        files: ['js/src/**/*.js'],
+        tasks: ['uglify']
+      }
 		}
 	
   });
 
-  grunt.registerTask('default', ['clean','sass','postcss','cssmin','watch']);
-  grunt.registerTask('build', ['clean','sass','postcss','cssmin']);
+  grunt.registerTask('default', ['clean','sass','postcss','cssmin','uglify','watch']);
+
+  grunt.registerTask('build', ['clean','sass','postcss','cssmin','uglify']);
 };

@@ -1,5 +1,9 @@
 {
+  "name": "portfolio_v6",
+  "version": "6.0.0",
+  "private": false,
   "dependencies": {
+    "grunt-contrib-uglify": "^4.0.1",
     "animejs": "^3.0.1",
     "autoprefixer": "^8.6.0",
     "bootstrap": "^4.3.1",
@@ -10,5 +14,9 @@
     "grunt-postcss": "^0.9.0",
     "grunt-sass": "^2.1.0",
     "matchdep": "^2.0.0"
+  },
+  "scripts": {
+    "build": "sh scripts/build.sh",
+    "dev": "grunt"
   }
 }
